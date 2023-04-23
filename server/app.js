@@ -12,6 +12,8 @@ let connectToBroker = (clientId) => {
   const options = {
     keepalive: 60,
     clientId: clientId,
+    username: 'Admin',
+    password: '7654321',
     prtocolId: 'MQTT',
     protocolVersion: 4,
     clean: true,
